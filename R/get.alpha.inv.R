@@ -18,3 +18,5 @@ function(chi, W, l, rho, alpha, overdisperse="no", phi=1, od.alpha=0) {
 	return(r)
 }
 
+#get a cutoff r(ρ) which yields desired minimum spec/sens for testing a particular copy-number ratio ρ at a particular exon with some depth and length.
+#qnorm is inverse operation of pnorm, probability distribution function.
